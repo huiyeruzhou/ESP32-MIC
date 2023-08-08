@@ -1,4 +1,13 @@
 {
     "idf.adapterTargetName": "esp32c3",
-    "idf.port": "/dev/ttyUSB0"
+    "idf.port": "/dev/ttyUSB0",
+        "C_Cpp.clang_format_path": "",
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.clang_format_style": "Google",
+    "C_Cpp.formatting": "clangFormat",
+    "cpplint.filters": [
+        "-build/include_subdir",
+        "-build/c++11",
+        "-legal/copyright"
+    ]
 }
